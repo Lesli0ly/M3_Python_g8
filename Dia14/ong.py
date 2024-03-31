@@ -1,5 +1,6 @@
 #Cálculo del factorial de un número
 def factorial(numero):#5! = 5*4*3*2*1
+
     valor =1#variable acumuladora
     for n in range (1,numero+1):#1,2,3,4,5
         valor = valor * n
@@ -10,6 +11,7 @@ def factorial(numero):#5! = 5*4*3*2*1
 #Crear una función que calcule la poductoria
 
 def productoria(lista):
+    
     valor = 1 #
     for elemento in lista:
         valor *=elemento#forma abreviada de valor = valor * n

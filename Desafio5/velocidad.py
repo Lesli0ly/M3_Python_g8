@@ -6,5 +6,5 @@ velocidad = [25, 12, 19, 16, 11, 11, 24, 1,
 11, 10, 18, 10, 14, 5, 23, 20, 23, 21]
 
 def media(velocidad):
-    print(sum(velocidad)/len(velocidad))
+    (sum(velocidad)/len(velocidad))
     
