@@ -15,7 +15,7 @@ def multiple(precios):    # Primero declaramos una función condicional
 #print(list(filter(lambda x: x[0].lower() in 'aeiou', precios)))
 #print(list( filter(lambda precio: precio == 30000, precios) ))
 
-menores = filter(lambda precios: precios < 30000, precios)
+menores = filter(lambda precio: precio < 30000, precios)
 
 for precio in precios:
     print(menor)
